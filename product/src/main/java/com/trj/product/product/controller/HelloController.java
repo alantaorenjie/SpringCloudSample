@@ -17,6 +17,6 @@ public class HelloController {
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
         log.info("调用HelloController index 方法");
-        return "hello "+name+"，this is first messge";
+        return "hello "+name+"，this is product messge";
     }
 }
